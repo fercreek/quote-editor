@@ -1,0 +1,14 @@
+<%# Way 1 %>
+<%# <%= turbo_stream.prepend "quotes", partial: "quotes/quote", locals: { quote: @quote } %>
+<%# <%= turbo_stream.update Quote.new, "" %> %> %>
+
+<%# Way 2 %>
+<%# <%= turbo_stream.prepend "quotes" do %> %>
+  <%# <%= render @quote %> %>
+<%# <% end %> %>
+
+<%# <%= turbo_stream.update Quote.new, "" %> %>
+
+<%# Way 3 %>
+<%= turbo_stream.prepend "quotes", @quote %>
+<%= turbo_stream.update Quote.new, "" %>
