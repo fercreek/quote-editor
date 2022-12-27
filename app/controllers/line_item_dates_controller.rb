@@ -5,6 +5,7 @@ class LineItemDatesController < ApplicationController
   def new
     @line_item_date = @quote.line_item_dates.build
   end
+
   def create
     @line_item_date = @quote.line_item_dates.build(line_item_date_params)
 
