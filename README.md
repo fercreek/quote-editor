@@ -1,24 +1,23 @@
-# README
+# Quote Editor App 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is me trying to do a the quote-editor example.
 
-Things you may want to cover:
+## Getting Started
+- Run `git clone git@github.com:fercreek/quote-editor.git`
+- Go to the folder
+- `npm install`
+- `bundle install`
+- `rails db:create`
+- `rails db:migrate`
 
-* Ruby version
+## Run application
+- `bin/dev`
 
-* System dependencies
+## Run tests
+- `bin/rails db:seed`
+- `bin/rails test:all`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Links
+- [Github repo](https://github.com/yersel500/quote_editor)
+- [Turbo Rails Tutorial](https://www.hotrails.dev/turbo-rails)
+- [Online app example](https://www.hotrails.dev/)

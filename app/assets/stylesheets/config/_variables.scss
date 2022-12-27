@@ -21,6 +21,7 @@
   --color-text-body:   hsl(0, 5%, 25%);
   --color-text-muted:  hsl(0, 1%, 44%);
 
+  // Classical and robust spacing system
   --space-xxxs: 0.25rem; // 4px
   --space-xxs: 0.375rem; // 6px
   --space-xs: 0.5rem;    // 8px
@@ -32,6 +33,7 @@
   --space-xxxl: 3rem;    // 48px
   --space-xxxxl: 4rem;   // 64px
 
+  // Application colors
   --color-primary:          hsl(350, 67%, 50%);
   --color-primary-rotate:   hsl(10, 73%, 54%);
   --color-primary-bg:       hsl(0, 85%, 96%);
@@ -46,6 +48,7 @@
   --color-light:      hsl(0, 6%, 93%);
   --color-dark:       var(--color-text-header);
 
+  // Border radius
   --border-radius: 0.375rem;
 
   // Border
